@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: #f2ebeb;  
+}
+
+header {
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+header nav a {
+    color: #A65E55;
+    font-family: Cinzel;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color:#FFFFFF;
+}
+ 
+header nav a:link {
+    color: #A65E55;
+}
+
+
+header nav a:active {
+    color: #FFFFFF;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .about_us {
+    background-image: url('../imagens/banner_servicos1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-family: Cinzel;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 4.7%;
+
+}
+
+h1 {
+    color: #1B1B1B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    text-align: center;
+    margin-top: 20px;
+}
+

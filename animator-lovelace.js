@@ -1,4 +1,4 @@
-document.body.onload = function () {
+document.body.addEventListener("load", function () {
   const targets = document.getElementsByClassName("bg-animated-lovelace");
 
   for (let i = 0; i < targets.length; i++) {
@@ -31,4 +31,4 @@ document.body.onload = function () {
       target.style.backgroundPosition = "center top";
     };
   }
-};
+});

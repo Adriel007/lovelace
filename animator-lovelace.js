@@ -1,4 +1,4 @@
-document.body.onload = function () {
+document.body.onload += function () {
   const targets = document.getElementsByClassName("bg-animated-lovelace");
 
   for (let i = 0; i < targets.length; i++) {
